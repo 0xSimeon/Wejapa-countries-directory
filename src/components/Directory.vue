@@ -88,7 +88,8 @@ export default {
 			)
 			.then((response) => {
 				// limit the number of countries to just 100.
-				this.countries = response.data.splice(0, 100);
+				this.countries = response.data;
+				console.log(this.countries);
 			});
 	},
 	mounted() {
