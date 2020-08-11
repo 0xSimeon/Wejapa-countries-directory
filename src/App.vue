@@ -23,7 +23,7 @@ export default {
 
 :root {
 	--color-primary: #00a896;
-	--color-secondary: #02c39a;
+	--color-secondary: #fc0;
 	--color-tertiary: #f0f3bd;
 	--color-blue: #05668d;
 	--color-dave: #f0f3bd;
@@ -45,7 +45,7 @@ html {
 
 #app {
 	padding: 1rem;
-	background: linear-gradient(to left top, var(--color-primary), var(--color-secondary));
+	background: linear-gradient(to right bottom, var(--color-primary), var(--color-secondary));
   height: 100%;
   min-height: 100vh;
 	font-family: 'Roboto', sans-serif;
